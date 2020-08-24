@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="30.5dp"
+    android:layout_marginRight="23dp"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#323232"
+        android:layout_marginTop="24.1dp"
+        android:letterSpacing="-0.02"
+        android:fontFamily="@font/segoe_ui"
+        android:lineSpacingExtra="10sp"
+        android:gravity="center_horizontal"
+        android:text="Signup"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#a6a6a6"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/segoe_ui"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:text="Name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#404040"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:layout_marginTop="11.5dp"
+        android:gravity="center_horizontal"
+        android:text="Rohan Surve"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11.5dp"
+        android:background="#dadada" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#a6a6a6"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/segoe_ui"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:text="Email"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#404040"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:layout_marginTop="11.5dp"
+        android:gravity="center_horizontal"
+        android:text="Helloishant@gmail.com"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11.5dp"
+        android:background="#dadada" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#a6a6a6"
+        android:layout_marginTop="25.5dp"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:text="Password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#404040"
+        android:background="@android:color/transparent"
+        android:letterSpacing="-0.02"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="5sp"
+        android:layout_marginTop="11.5dp"
+        android:text="demo123"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11.5dp"
+        android:background="#dadada" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:letterSpacing="-0.02"
+        android:background="@drawable/bg_gradient"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:layout_marginTop="28.5dp"
+        android:fontFamily="@font/segoe_ui"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:text="Sign up"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#a3a3a3"
+        android:letterSpacing="-0.02"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:text="Don’t have an acoount ?   Sign in"
+        />
+
+</LinearLayout>
